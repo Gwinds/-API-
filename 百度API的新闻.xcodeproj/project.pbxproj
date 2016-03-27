@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B14F0D1C93E85B008C33CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B14F0C1C93E85B008C33CC /* main.m */; };
+		92B14F101C93E85B008C33CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B14F0F1C93E85B008C33CC /* AppDelegate.m */; };
+		92B14F161C93E85B008C33CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B14F141C93E85B008C33CC /* Main.storyboard */; };
+		92B14F181C93E85B008C33CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B14F171C93E85B008C33CC /* Assets.xcassets */; };
+		92B14F1B1C93E85B008C33CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B14F191C93E85B008C33CC /* LaunchScreen.storyboard */; };
+		92B14F261C93E85B008C33CC /* __API___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B14F251C93E85B008C33CC /* __API___Tests.m */; };
+		92B14F311C93E85B008C33CC /* __API___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B14F301C93E85B008C33CC /* __API___UITests.m */; };
+		92B14F401C93EA15008C33CC /* NEWsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B14F3F1C93EA15008C33CC /* NEWsTableViewController.m */; };
+		92B14F431C93FAD8008C33CC /* NewsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B14F421C93FAD8008C33CC /* NewsInfo.m */; };
+		92B14F461C94090F008C33CC /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B14F451C94090F008C33CC /* InfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B14F221C93E85B008C33CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B14F001C93E85B008C33CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B14F071C93E85B008C33CC;
+			remoteInfo = "百度API的新闻";
+		};
+		92B14F2D1C93E85B008C33CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B14F001C93E85B008C33CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B14F071C93E85B008C33CC;
+			remoteInfo = "百度API的新闻";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92B14F081C93E85B008C33CC /* 百度API的新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百度API的新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B14F0C1C93E85B008C33CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92B14F0E1C93E85B008C33CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92B14F0F1C93E85B008C33CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92B14F151C93E85B008C33CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B14F171C93E85B008C33CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B14F1A1C93E85B008C33CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92B14F1C1C93E85B008C33CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B14F211C93E85B008C33CC /* 百度API的新闻Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度API的新闻Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B14F251C93E85B008C33CC /* __API___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__API___Tests.m"; sourceTree = "<group>"; };
+		92B14F271C93E85B008C33CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B14F2C1C93E85B008C33CC /* 百度API的新闻UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度API的新闻UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B14F301C93E85B008C33CC /* __API___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__API___UITests.m"; sourceTree = "<group>"; };
+		92B14F321C93E85B008C33CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B14F3E1C93EA15008C33CC /* NEWsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEWsTableViewController.h; sourceTree = "<group>"; };
+		92B14F3F1C93EA15008C33CC /* NEWsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEWsTableViewController.m; sourceTree = "<group>"; };
+		92B14F411C93FAD8008C33CC /* NewsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsInfo.h; sourceTree = "<group>"; };
+		92B14F421C93FAD8008C33CC /* NewsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsInfo.m; sourceTree = "<group>"; };
+		92B14F441C94090F008C33CC /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		92B14F451C94090F008C33CC /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B14F051C93E85B008C33CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B14F1E1C93E85B008C33CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B14F291C93E85B008C33CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B14EFF1C93E85B008C33CC = {
+			isa = PBXGroup;
+			children = (
+				92B14F0A1C93E85B008C33CC /* 百度API的新闻 */,
+				92B14F241C93E85B008C33CC /* 百度API的新闻Tests */,
+				92B14F2F1C93E85B008C33CC /* 百度API的新闻UITests */,
+				92B14F091C93E85B008C33CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92B14F091C93E85B008C33CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B14F081C93E85B008C33CC /* 百度API的新闻.app */,
+				92B14F211C93E85B008C33CC /* 百度API的新闻Tests.xctest */,
+				92B14F2C1C93E85B008C33CC /* 百度API的新闻UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B14F0A1C93E85B008C33CC /* 百度API的新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				92B14F0E1C93E85B008C33CC /* AppDelegate.h */,
+				92B14F0F1C93E85B008C33CC /* AppDelegate.m */,
+				92B14F411C93FAD8008C33CC /* NewsInfo.h */,
+				92B14F421C93FAD8008C33CC /* NewsInfo.m */,
+				92B14F441C94090F008C33CC /* InfoViewController.h */,
+				92B14F451C94090F008C33CC /* InfoViewController.m */,
+				92B14F3E1C93EA15008C33CC /* NEWsTableViewController.h */,
+				92B14F3F1C93EA15008C33CC /* NEWsTableViewController.m */,
+				92B14F141C93E85B008C33CC /* Main.storyboard */,
+				92B14F171C93E85B008C33CC /* Assets.xcassets */,
+				92B14F191C93E85B008C33CC /* LaunchScreen.storyboard */,
+				92B14F1C1C93E85B008C33CC /* Info.plist */,
+				92B14F0B1C93E85B008C33CC /* Supporting Files */,
+			);
+			path = "百度API的新闻";
+			sourceTree = "<group>";
+		};
+		92B14F0B1C93E85B008C33CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92B14F0C1C93E85B008C33CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92B14F241C93E85B008C33CC /* 百度API的新闻Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92B14F251C93E85B008C33CC /* __API___Tests.m */,
+				92B14F271C93E85B008C33CC /* Info.plist */,
+			);
+			path = "百度API的新闻Tests";
+			sourceTree = "<group>";
+		};
+		92B14F2F1C93E85B008C33CC /* 百度API的新闻UITests */ = {
+			isa = PBXGroup;
+			children = (
+				92B14F301C93E85B008C33CC /* __API___UITests.m */,
+				92B14F321C93E85B008C33CC /* Info.plist */,
+			);
+			path = "百度API的新闻UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B14F071C93E85B008C33CC /* 百度API的新闻 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B14F351C93E85B008C33CC /* Build configuration list for PBXNativeTarget "百度API的新闻" */;
+			buildPhases = (
+				92B14F041C93E85B008C33CC /* Sources */,
+				92B14F051C93E85B008C33CC /* Frameworks */,
+				92B14F061C93E85B008C33CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百度API的新闻";
+			productName = "百度API的新闻";
+			productReference = 92B14F081C93E85B008C33CC /* 百度API的新闻.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B14F201C93E85B008C33CC /* 百度API的新闻Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B14F381C93E85B008C33CC /* Build configuration list for PBXNativeTarget "百度API的新闻Tests" */;
+			buildPhases = (
+				92B14F1D1C93E85B008C33CC /* Sources */,
+				92B14F1E1C93E85B008C33CC /* Frameworks */,
+				92B14F1F1C93E85B008C33CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B14F231C93E85B008C33CC /* PBXTargetDependency */,
+			);
+			name = "百度API的新闻Tests";
+			productName = "百度API的新闻Tests";
+			productReference = 92B14F211C93E85B008C33CC /* 百度API的新闻Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92B14F2B1C93E85B008C33CC /* 百度API的新闻UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B14F3B1C93E85B008C33CC /* Build configuration list for PBXNativeTarget "百度API的新闻UITests" */;
+			buildPhases = (
+				92B14F281C93E85B008C33CC /* Sources */,
+				92B14F291C93E85B008C33CC /* Frameworks */,
+				92B14F2A1C93E85B008C33CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B14F2E1C93E85B008C33CC /* PBXTargetDependency */,
+			);
+			name = "百度API的新闻UITests";
+			productName = "百度API的新闻UITests";
+			productReference = 92B14F2C1C93E85B008C33CC /* 百度API的新闻UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B14F001C93E85B008C33CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = doubi;
+				TargetAttributes = {
+					92B14F071C93E85B008C33CC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					92B14F201C93E85B008C33CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 92B14F071C93E85B008C33CC;
+					};
+					92B14F2B1C93E85B008C33CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 92B14F071C93E85B008C33CC;
+					};
+				};
+			};
+			buildConfigurationList = 92B14F031C93E85B008C33CC /* Build configuration list for PBXProject "百度API的新闻" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B14EFF1C93E85B008C33CC;
+			productRefGroup = 92B14F091C93E85B008C33CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B14F071C93E85B008C33CC /* 百度API的新闻 */,
+				92B14F201C93E85B008C33CC /* 百度API的新闻Tests */,
+				92B14F2B1C93E85B008C33CC /* 百度API的新闻UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B14F061C93E85B008C33CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B14F1B1C93E85B008C33CC /* LaunchScreen.storyboard in Resources */,
+				92B14F181C93E85B008C33CC /* Assets.xcassets in Resources */,
+				92B14F161C93E85B008C33CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B14F1F1C93E85B008C33CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B14F2A1C93E85B008C33CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B14F041C93E85B008C33CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B14F101C93E85B008C33CC /* AppDelegate.m in Sources */,
+				92B14F0D1C93E85B008C33CC /* main.m in Sources */,
+				92B14F431C93FAD8008C33CC /* NewsInfo.m in Sources */,
+				92B14F461C94090F008C33CC /* InfoViewController.m in Sources */,
+				92B14F401C93EA15008C33CC /* NEWsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B14F1D1C93E85B008C33CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B14F261C93E85B008C33CC /* __API___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B14F281C93E85B008C33CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B14F311C93E85B008C33CC /* __API___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92B14F231C93E85B008C33CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B14F071C93E85B008C33CC /* 百度API的新闻 */;
+			targetProxy = 92B14F221C93E85B008C33CC /* PBXContainerItemProxy */;
+		};
+		92B14F2E1C93E85B008C33CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B14F071C93E85B008C33CC /* 百度API的新闻 */;
+			targetProxy = 92B14F2D1C93E85B008C33CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92B14F141C93E85B008C33CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B14F151C93E85B008C33CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92B14F191C93E85B008C33CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B14F1A1C93E85B008C33CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B14F331C93E85B008C33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92B14F341C93E85B008C33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B14F361C93E85B008C33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百度API的新闻/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.--API---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92B14F371C93E85B008C33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百度API的新闻/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.--API---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92B14F391C93E85B008C33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百度API的新闻Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.--API---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百度API的新闻.app/百度API的新闻";
+			};
+			name = Debug;
+		};
+		92B14F3A1C93E85B008C33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百度API的新闻Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.--API---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百度API的新闻.app/百度API的新闻";
+			};
+			name = Release;
+		};
+		92B14F3C1C93E85B008C33CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百度API的新闻UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.--API---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百度API的新闻";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92B14F3D1C93E85B008C33CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百度API的新闻UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.--API---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百度API的新闻";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B14F031C93E85B008C33CC /* Build configuration list for PBXProject "百度API的新闻" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B14F331C93E85B008C33CC /* Debug */,
+				92B14F341C93E85B008C33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B14F351C93E85B008C33CC /* Build configuration list for PBXNativeTarget "百度API的新闻" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B14F361C93E85B008C33CC /* Debug */,
+				92B14F371C93E85B008C33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B14F381C93E85B008C33CC /* Build configuration list for PBXNativeTarget "百度API的新闻Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B14F391C93E85B008C33CC /* Debug */,
+				92B14F3A1C93E85B008C33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B14F3B1C93E85B008C33CC /* Build configuration list for PBXNativeTarget "百度API的新闻UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B14F3C1C93E85B008C33CC /* Debug */,
+				92B14F3D1C93E85B008C33CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B14F001C93E85B008C33CC /* Project object */;
+}
